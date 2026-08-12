@@ -27,13 +27,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     max-height: 400px;
     max-width: 400px;
     flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem;
-    /* background-color: red; */
+    background-color: #b0413e;
 }
 
 .msg-container{
@@ -93,4 +92,62 @@ body{
 
 #reset-btn:active{
     transform: scale(0.98);
+}
+
+@media only screen and (max-width:555px){
+    .container{
+        padding: 0;
+    }
+    .main{
+        gap: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 380px){
+    .main{
+        padding: 1rem;
+    }
+    .box{
+        width: 90px;
+        height: 90px;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .box{
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    #reset-btn{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 288px){
+    .box{
+        width: 70px;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 260px){
+    .box{
+        width: 60px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 230px){
+    .box{
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
 }
