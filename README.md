@@ -1,3 +1,3 @@
 Tic Tac Toe game
 <br>
-Author : Bipin Chaudhary
+Author : Bipin Chaudhary (web dev)
