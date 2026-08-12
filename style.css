@@ -32,7 +32,6 @@ body{
     flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem;
-    background-color: #b0413e;
 }
 
 .msg-container{
